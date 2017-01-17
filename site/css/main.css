@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #EBEBEB;
+}
+
+inner{
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  height: 200px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #F6F930;
+}
+
+a{
+  text-decoration: none;
+  color: #2F2F2F;
+}
+
+maincontainer{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+
+main{
+  display: block;
+  background-color: red;
+}
