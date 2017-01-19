@@ -67,6 +67,11 @@ article > p {
   color: #2F2F2F;
 }
 
+article > imgbox{
+  display: block;
+  padding: 5px;
+}
+
 footer{
   background-color: #2F2F2F;
   color: #EBEBEB;
@@ -74,4 +79,10 @@ footer{
   padding: 5px;
   font-family: 'Roboto Slab';
   font-size: 10px;
+}
+
+@media (max-width: 320px;){
+  article > imgbox{
+    background-image: url(../img/bananpaj-282x211)
+  }
 }
