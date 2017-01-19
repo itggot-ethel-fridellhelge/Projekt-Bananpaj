@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #2F2F2F;
 }
 
 nav{
@@ -30,6 +31,7 @@ a{
   flex-grow: 1;
   text-align: center;
   text-decoration: none;
+  font-size: 20px;
   color: #2F2F2F;
   padding: 5px;
 }
@@ -49,19 +51,38 @@ maincontainer{
 main{
   flex-grow: 1;
   display: block;
-  background-color: red;
+  background-color: #F6F930;
+  padding: 7px;
 }
 
 article {
+  background-color: rgba(235, 235, 235, 0.7);
   padding: 5px;
 }
 
 article > p {
+  font-family: 'Roboto Slab';
   margin: 0;
+  padding: 5px;
+  color: #2F2F2F;
+}
+
+article > imgbox{
+  display: block;
   padding: 5px;
 }
 
 footer{
   background-color: #2F2F2F;
   color: #EBEBEB;
+  text-align: right;
+  padding: 5px;
+  font-family: 'Roboto Slab';
+  font-size: 10px;
+}
+
+@media (max-width: 320px;){
+  article > imgbox{
+    background-image: url(../img/bananpaj-282x211)
+  }
 }
