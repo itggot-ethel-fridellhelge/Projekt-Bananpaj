@@ -15,22 +15,37 @@ inner{
 nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   background-color: #F6F930;
+  font-family: 'Roboto Slab';
 }
 
 a{
+  flex-grow: 1;
+  text-align: center;
   text-decoration: none;
   color: #2F2F2F;
+  padding: 5px;
+}
+
+a.selected{
+  background-color: #2F2F2F;
+  color: #F6F930;
 }
 
 maincontainer{
   display: flex;
   flex-direction: row;
-  background-color: blue;
+  background-color: #EBEBEB;
+  padding: 7px;
 }
 
 main{
+  flex-grow: 1;
   display: block;
   background-color: red;
+}
+
+footer{
+  background-color: #2F2F2F;
+  color: #EBEBEB;
 }
