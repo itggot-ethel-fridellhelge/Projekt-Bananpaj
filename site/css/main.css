@@ -52,12 +52,12 @@ main{
   flex-grow: 1;
   display: block;
   background-color: #F6F930;
-  padding: 7px;
 }
 
 article {
   background-color: rgba(235, 235, 235, 0.7);
   padding: 5px;
+  margin: 7px;
 }
 
 article > p {
@@ -69,7 +69,6 @@ article > p {
 
 article > imgbox{
   display: block;
-  padding: 5px;
 }
 
 footer{
@@ -81,8 +80,14 @@ footer{
   font-size: 10px;
 }
 
-@media (max-width: 320px;){
+@media (max-width: 320px){
   article > imgbox{
-    background-image: url(../img/bananpaj-282x211)
+    height: 211px;
+    width: 100%;
+    background-image: url(../img/bananpaj-282x211.png);
   }
+}
+
+h2 {
+  margin: 0;
 }
